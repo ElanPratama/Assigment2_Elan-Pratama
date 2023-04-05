@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: teal;
+}
+
+.card{
+    max-width: 1100px;
+    margin: auto;
+    margin-top: 40px;
+    padding: 30px 70px;
+    box-shadow: 0 4px 30px 0 rgba(0,0,0,0.2);
+}
+
+
+.maincard{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+.profileimage{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.descriptioncard{
+    width: 900px;
+    padding: 20px 20px;
+}
+
+
+.skill{
+    margin-left: 1px;
+}
+
+.biodata{
+    border-left: 1px solid;
+    padding: 10px 15px;
+    width: 100%;
+}
+
+.identitas{
+    padding-left: 30px;
+}
+
+#edit{
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: #0d6efd;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    font-weight: bold;
+    transition: .5s;
+}
+
+#edit:hover{
+    background-color: transparent;
+    border: 1px solid;
+    cursor: pointer;
+    border-color: black;
+    color: black;
+}
+
+#resume{
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: grey;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    font-weight: bold;
+    transition: .5s;
+}
+
+#resume:hover{
+    background-color: transparent;
+    border: 1px solid;
+    cursor: pointer;
+    border-color: black;
+    color: black;
+}
+
+#buttonSubmit{
+    border: 1px solid transparent;
+    border-radius: 7px;
+    background-color: grey;
+    color: white;
+    padding: 5px 450px;
+    text-align: center;
+    font-weight: bold;
+    transition: .5s;
+}
+
+.form-page{
+    display: none;
+}
+
